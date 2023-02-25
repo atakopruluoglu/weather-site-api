@@ -65,12 +65,12 @@ const Nav = () => {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerHeader>Weather App</DrawerHeader>
+          <DrawerHeader>Hava Durumu Uygulaması</DrawerHeader>
 
           <DrawerBody>
             <VStack alignItems={"start"}>
               <Button onClick={handle_home_button_click}>
-                <Link to={"/"}>Home</Link>
+                <Link to={"/"}>Anasayfa</Link>
               </Button>
               <IconButton
                 color={handle_icon_bg_color("color")}
